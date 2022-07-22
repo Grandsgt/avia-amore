@@ -57,8 +57,9 @@ main > * {
 }
 
 .airplane-card {
-  padding: 1rem;
+  
   width: 15rem;
+  padding: 1rem;
   margin: 1rem 1rem 1rem 0; /* No left margin */
 }
 
@@ -71,3 +72,21 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width: 768px){
+
+  header{
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .airplane-card{
+   width: 100%;
+   margin: 0 2rem 1rem 0; /* No left margin */
+  }
+ h1, nav{
+  margin-top: 1rem;
+  padding-left: 1rem;
+ }
+ 
+
+}
